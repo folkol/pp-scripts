@@ -1,0 +1,7 @@
+#!/usr/bin/python
+
+from sys import argv
+from zlib import decompress
+
+with open(argv[1]) as f:
+    print decompress(f.read())

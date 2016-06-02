@@ -1,0 +1,1 @@
+while :; do clear; git status; sleep 1; done
